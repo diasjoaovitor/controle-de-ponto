@@ -1,5 +1,10 @@
+import { Router } from './Router'
+import { ThemeProvider } from './shared/contexts'
+
 export const App: React.FC = () => (
-  <div>app</div>
+  <ThemeProvider>
+    <Router />
+  </ThemeProvider>
 )
 
 export default App
