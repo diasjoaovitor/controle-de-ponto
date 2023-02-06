@@ -1,5 +1,7 @@
+import { AppBar } from '../../shared/components'
+
 export const Dashboard: React.FC = () => {
   return (
-    <div>dashboard</div>
+    <AppBar />
   )
 }
